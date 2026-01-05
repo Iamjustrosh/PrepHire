@@ -18,7 +18,7 @@ export default function Navbar() {
     <nav className="bg-white shadow-sm z-50 relative">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link to="/">
-          <img src="/logo.png" alt="PrepHire" className="h-8" />
+          <img src="/logo.svg" alt="PrepHire" className="w-18" />
         </Link>
         {/* Desktop nav */}
         <div className="hidden md:flex space-x-6 font-medium">
