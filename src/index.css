@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* stylelint-disable-next-line at-rule-no-unknown */
+@theme {
+  --color-primary: #1b4a67;
+  --color-secondary: #b7e035;
+  --color-accent: #29a09a;
+  --color-background: #f8fafc;
+}
