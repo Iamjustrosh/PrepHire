@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return (
     <section className="max-w-7xl mx-auto px-6 py-16">
@@ -13,18 +15,18 @@ export default function Home() {
         </p>
 
         <div className="mt-8 flex gap-4">
-          <a
-            href="/services"
+          <Link
+            to="/services"
             className="bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition"
           >
             Explore Services
-          </a>
-          <a
-            href="/pricing"
+          </Link>
+          <Link
+            to="/pricing"
             className="border border-primary text-primary px-6 py-3 rounded-lg font-semibold hover:bg-primary hover:text-white transition"
           >
             View Pricing
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -126,12 +128,12 @@ export default function Home() {
           Join PrepHire and take the first step toward confidence, clarity,
           and career success with AI-powered preparation.
         </p>
-        <a
-          href="/pricing"
+        <Link
+          to="/pricing"
           className="inline-block bg-secondary text-primary px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition"
         >
           Get Started
-        </a>
+        </Link>
       </div>
     </section>
   );
